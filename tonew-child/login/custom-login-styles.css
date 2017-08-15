@@ -1,0 +1,81 @@
+body.login {
+    background-image: url('https://www.tonew.site/wp-content/uploads/2017/08/slider.jpg');
+}
+
+
+
+.login .button-primary {
+    width: 120px;
+    background-color: #DB338F !important;
+    background: -webkit-gradient(linear, left top, left bottom, from(#DB338F), to(#DB338F));
+    background: -webkit-linear-gradient(top, #DB338F, #DB338F);
+    background: -moz-linear-gradient(top, #DB338F, #DB338F);
+    background: -ms-linear-gradient(top, #DB338F, #DB338F);
+    background: -o-linear-gradient(top, #DB338F, #DB338F);
+    background-image: -ms-linear-gradient(top, #DB338F 0%, #DB338F 100%);
+    color: #ffffff;
+    -webkit-border-radius: 4px;
+    border: 1px solid #DB338F;
+    text-shadow: none;
+    box-shadow: inherit;
+}
+
+.login .button-primary:hover {
+    background-color: #DB338F !important;
+    background: -webkit-gradient(linear, left top, left bottom, from(#DB338F), to(#DB338F));
+    background: -webkit-linear-gradient(top, #DB338F, #DB338F);
+    background: -moz-linear-gradient(top, #DB338F, #DB338F);
+    background: -ms-linear-gradient(top, #DB338F, #DB338F);
+    background: -o-linear-gradient(top, #DB338F, #DB338F);
+    background-image: -ms-linear-gradient(top, #DB338F 0%, #DB338F 100%);
+    color: #fff;
+    -webkit-border-radius: 4px;
+    border: 1px solid #DB338F;
+}
+
+.login .button-primary:active {
+    background-color: #DB338F !important;
+    backgroun: ;
+    d: -webkit-gradient(linear, left top, left bottom, from(#DB338F), to(#DB338F));
+    background: -webkit-linear-gradient(top, #DB338F, #DB338F);
+    background: -moz-linear-gradient(top, #DB338F, #DB338F);
+    background: -ms-linear-gradient(top, #DB338F, #DB338F);
+    background: -o-linear-gradient(top, #DB338F, #DB338F);
+    background-image: -ms-linear-gradient(top, #DB338F 0%, #DB338F 100%);
+    color: #fff;
+    -webkit-border-radius: 4px;
+    border: 1px solid #DB338F;
+}
+
+#login form#loginform #user_login,
+#login form#loginform #user_email,
+#login form#registerform #user_login,
+#login form#registerform #user_email,
+#login form#lostpasswordform #user_login,
+#login form#loginform #user_pass,
+#login form#loginform #openid_identifier {
+    border: 2px solid #DB338F;
+}
+
+#wp-submit {
+    float: left;
+    width: 100%;
+    height: 50px;
+    margin-top: 15px;
+}
+
+p#backtoblog {
+    display: none;
+}
+
+p#nav {
+    display: none;
+}
+
+#login_error {
+    display: none;
+}
+
+.logged-in-as {
+    display: none;
+}

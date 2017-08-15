@@ -1,0 +1,101 @@
+== changelog ==
+
+= 1.2.33 =
+* Add compatibility for 1.3.40
+
+= 1.2.32 =
+* Add defaults for mobile typography
+
+(1/28/2016) - 1.2.31
+* Add footer font size value
+* Add new defaults to prevent notices
+
+----
+
+(10/5/2015) - 1.2.3
+* Fix javascript error when no navigation is set
+
+----
+
+(8/23/2015) - 1.2.2
+[!] Fix sticky navigation bug with contained navigation on small screen
+[*] Adjust typography values to work with GP 1.3.0
+[*] Disable sticky navigation if Generate Menu Plus is activated
+
+----
+
+(6/6/2015) - 1.2.1
+[*] Fix undefined index errors
+
+----
+
+(3/11/2015) - 1.2
+[!] Fixed sticky nav jumping when navigation is below header
+
+----
+
+(12/20/2014) - 1.1
+[+] Navigation search enabled by default
+[*] Sticky navigation stays contained when navigation is contained
+[*] Left sidebar added by default
+[*] Screenshot updated
+
+----
+
+(11/17/2014) - 1.0
+[!] Fix double post image when using Blog addon
+[*] Default font changed to Open Sans
+
+----
+
+(9/4/2014) - 0.9
+[!] Remove php notice caused by newest version of parent theme
+[!] Fix sticky nav disappearing behind admin bar
+
+----
+
+(8/30/2014) - 0.8
+[!] Fix jumping when switching to sticky navigation (for good this time)
+
+----
+
+(8/24/2014) - 0.7
+
+[+] Instructions added to style.css and functions.php
+[!] Fixed bug with fixed navigation while navigation isn't fluid
+[+] Added new defaults to filter
+[!] Fixed bug dealing with sticky navigation
+[+] Added transition to the navigation
+
+----
+
+(8/10/2014) - 0.6
+[+] New form color defaults added
+[!] Fixed content page header in post excerpt 
+[!] Fixed sidebar link hover color
+
+----
+
+(7/19/2014 - 0.5)
+[*] Change made to description
+
+----
+
+(07/19/2014 - 0.4
+[*] Regular CSS updated with dynamic CSS to be more extendable
+[!] CSS fixes
+
+----
+
+(7/14/2014) - 0.3
+[*] Made adjustment to work with latest version of GeneratePress
+
+----
+
+(07/1/2014) - 0.2
+[*] Update Theme URI
+
+----
+
+(05/26/2014) - 0.1
+Initial Release

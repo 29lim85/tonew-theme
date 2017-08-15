@@ -1,0 +1,232 @@
+                    /*
+ Theme Name:   Marilyn
+ Description:  This is my icon of perfect woman
+ Author:       Lukov Igor
+ Author URI:   https://twitter.com/IgorLukov
+ Template:     tonew
+ Version:      1.0.00
+ Tags: two-columns, three-columns, one-column, right-sidebar, left-sidebar, footer-widgets, blog, e-commerce, flexible-header, full-width-template, buddypress, custom-header, custom-background, custom-menu, custom-colors, sticky-post, threaded-comments, translation-ready, rtl-language-support, featured-images, theme-options
+
+ */
+
+                    .post-image {
+                        margin-top: 0;
+                        margin-bottom: 1.5em;
+                    }
+                    /* Remove all of the below to remove sticky navigation */
+
+                    .admin-bar.stickynav.nav-below-header #site-navigation,
+                    .admin-bar.stickynav.nav-above-header #site-navigation,
+                    .admin-bar.nav-below-header #site-navigation,
+                    .admin-bar.nav-above-header #site-navigation {
+                        top: 32px;
+                    }
+
+                    .stickynav.nav-below-header #site-navigation,
+                    .stickynav.nav-above-header #site-navigation {
+                        border-top: 0 none;
+                        position: fixed;
+                        top: 0;
+                        width: 100%;
+                        max-width: 100%;
+                        z-index: 100;
+                        opacity: .8;
+                        -webkit-transition: opacity 0.2s ease-in-out;
+                        -moz-transition: opacity 0.2s ease-in-out;
+                        -o-transition: opacity 0.2s ease-in-out;
+                        transition: opacity 0.2s ease-in-out;
+                    }
+
+                    .stickynav.nav-below-header #site-navigation:hover,
+                    .stickynav.nav-above-header #site-navigation:hover {
+                        opacity: 1;
+                        -webkit-transition: opacity 0.2s ease-in-out;
+                        -moz-transition: opacity 0.2s ease-in-out;
+                        -o-transition: opacity 0.2s ease-in-out;
+                        transition: opacity 0.2s ease-in-out;
+                    }
+
+                    .nav-above-header #site-navigation {
+                        border-top: 0 none;
+                        position: fixed;
+                        top: 0;
+                        width: 100%;
+                        max-width: 100%;
+                        z-index: 100;
+                        -webkit-transition: opacity 0.2s ease-in-out;
+                        -moz-transition: opacity 0.2s ease-in-out;
+                        -o-transition: opacity 0.2s ease-in-out;
+                        transition: opacity 0.2s ease-in-out;
+                    }
+
+                    @media screen and (min-width: 980px) and (max-width: 1281px) {
+                        #footer-widgets {
+                            width: 910px;
+                            margin: auto;
+                        }
+                    }
+
+                    @media screen and (min-width: 1281px) and (max-width: 1440px) {
+                        #footer-widgets {
+                            width: 910px;
+                            margin: auto;
+                        }
+                    }
+
+                    @media screen and (min-width: 1441px) and (max-width: 1920px) {
+                        #footer-widgets {
+                            width: 910px;
+                            margin: auto;
+                        }
+                    }
+
+                    @media screen and (min-width: 1921px) {
+                        #footer-widgets {
+                            width: 910px;
+                            margin: auto;
+                        }
+                    }
+
+                    .logged-in-as {
+                        display: none;
+                    }
+
+                    @media screen and (max-width: 400px) {
+                        .box {
+                            text-align: center;
+                            float: left;
+                            margin: auto;
+                            width: 100%;
+                            padding: 3%;
+                        }
+                    }
+
+                    @media screen and (min-width: 401px) and (max-width: 720px) {
+                        .box {
+                            text-align: center;
+                            float: left;
+                            margin: auto;
+                            width: 100%;
+                            padding: 3%;
+                        }
+                    }
+
+                    @media screen and (min-width: 721px) and (max-width: 1920px) {
+                        .box {
+                            text-align: center;
+                            float: left;
+                            display: inline-block;
+                            margin: auto;
+                            width: 25%;
+                            padding: 3%;
+                        }
+                    }
+
+                    @media screen and (min-width: 1921px) {
+                        .box {
+                            text-align: center;
+                            float: left;
+                            display: inline-block;
+                            margin: auto;
+                            width: 25%;
+                            padding: 3%;
+                        }
+                    }
+
+
+                    @media screen and (min-width: 320px) and (max-width: 850px) {
+                        iframe {
+                            width: 560px;
+                            height: 270px;
+                            margin: 0 auto;
+                            display: block;
+                        }
+                        ;
+                    }
+
+                    @media screen and (min-width: 850px) and (max-width: 1920px) {
+                        iframe {
+                            width: 854px;
+                            height: 480px;
+                            margin: 0 auto;
+                            display: block;
+                        }
+                        ;
+                    }
+
+                    @media screen and (min-width: 1921px) {
+                        iframe {
+                            width: 854px;
+                            height: 480px;
+                            margin: 0 auto;
+                            display: block;
+                        }
+                        ;
+                    }
+
+                    #reply-title {
+                        text-align: center;
+                    }
+
+
+
+                    @media screen and (min-width: 721px) and (max-width: 1920px) {
+                        .comment-form>.form-submit {
+
+                            margin-left: 41%;
+                        }
+                    }
+
+                    @media screen and (min-width: 401px) and (max-width: 720px) {
+                        .comment-form>.form-submit {
+
+                            margin-left: 11%;
+                        }
+                    }
+
+                    .rw-ui-poweredby {
+                        display: none;
+                    }
+
+                    .rw-ui-container.rw-halign-right .rw-report-link {
+                        display: none!important;
+                    }
+
+                    .entry-header {
+                        text-align: center;
+                    }
+
+
+
+                    .rw-ui-report {
+                        display: none !important;
+                    }
+
+                    .cat-links,
+                    .comments-link,
+                    .tags-links,
+                    footer.entry-meta .byline,
+                    footer.entry-meta .posted-on {
+                        padding-right: 10px;
+                        width: 100%;
+                        text-align: center;
+                    }
+
+                    @media screen and (min-width: 850px) and (max-width: 1920px) {
+                        footer.entry-meta {
+                            width: 100%;
+                            display: inline-flex;
+                        }
+                    }
+
+                    body {
+                        background-image: url('https://www.tonew.site/wp-content/uploads/2017/08/bg.jpg')!important;
+                    }
+
+                    .footer-widgets a:hover {
+                        text-decoration: underline;
+                    }
+
+                    .entry-summary {
+                        text-align: center;
+                    }
